@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.menuContainer{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.menuBox{
+    width: 400px;
+    height: auto;
+    box-shadow: 0 0 5px gray;
+    padding: 20px 10px;
+    border-radius: 10px;
+}
+
+.menuBox img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    box-shadow: 0 0 5px gray;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+}
+
+h1,h2{
+    text-align: center;
+}
+
+p{
+    margin: 10px auto;
+}
+
+.btn{
+    text-align: center;
+}
+
+button{
+    background: gray;
+    color: #000;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    font-size: 17px;
+    padding: 10px 15px;
+    margin: 2px 5px;
+}
+
+#random{
+    box-shadow: 0 0 5px gray;
+}
